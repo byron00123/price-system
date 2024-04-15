@@ -10,4 +10,4 @@ class PriceForm(forms.ModelForm):
 
     class Meta:
         model = Price
-        fields = ['product', 'farmgate_price', 'retail_price', 'date', 'location']
+        fields = ['product', 'farmgate_price', 'retail_price', 'location']
